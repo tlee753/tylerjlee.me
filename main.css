@@ -27,3 +27,8 @@ body {
     text-align: center;
     color: navy;
 }
+
+#header #content h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
