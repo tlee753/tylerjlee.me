@@ -8,7 +8,7 @@ body {
 
 #header {
     display: block;
-    position: relative;
+    position: absolute;
     background-image: url("header-min.jpg");    
     background-size: cover;
     background-position: center;
@@ -22,8 +22,7 @@ body {
 }
 
 #header #frame {
-    display: block;
-    clear: both;
+    display: inline-block;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -33,7 +32,7 @@ body {
 
 #header #content {
     text-align: center;
-    color: gold;
+    color: purple;
 }
 
 #header #content h1 {
