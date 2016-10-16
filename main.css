@@ -21,11 +21,16 @@ body {
     height: 100vh;
 }
 
-#header #frame {
+#header #border {
     display: inline-block;
-    height: 90%;
-    width: 90%;
-    position: absolute;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+# header #border #frame {
+    height: 100%;
+    width: 100%;
     border: 8px solid white;
 }
 
