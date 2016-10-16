@@ -2,8 +2,11 @@ html {
 }
 
 body {
-    font-family: Century Gothic;
+    font-family: Century Gothic, sans-serif;
 }
 
-
+#header {
+    color: red;
+    
+}
 
