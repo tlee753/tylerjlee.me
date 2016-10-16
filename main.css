@@ -19,7 +19,7 @@ body {
 #header #frame {
     height: 100%;
     width: 100$;
-    position: static;
+    position: absolute;
     padding: 15px;
     border: 8px solid white;
 }
