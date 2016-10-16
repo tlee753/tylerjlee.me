@@ -7,8 +7,6 @@ body {
 }
 
 #header {
-    display: block;
-    position: absolute;
     background-image: url("header-min.jpg");    
     background-size: cover;
     background-position: center;
@@ -22,10 +20,10 @@ body {
 }
 
 #header #border {
-    display: inline-block;
     height: 100%;
     width: 100%;
     position: relative;
+    padding: 15px;
 }
 
 # header #border #frame {
