@@ -18,6 +18,7 @@ body {
 
 #header #frame {
     position: relative;
+    margin: 15px
     border: 3px solid white;
 }
 
