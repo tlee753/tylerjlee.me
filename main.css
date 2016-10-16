@@ -22,7 +22,7 @@ body {
 #header #border {
     height: 100%;
     width: 100%;
-    position: relative;
+    position: absolute;
     padding: 15px;
 }
 
