@@ -5,7 +5,7 @@ body {
 }
 
 #header {
-    background-image: url("header-min.jpg");    
+    background-image: url("/assets/header.jpg");    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   
@@ -32,7 +32,7 @@ body {
 
 #header #content {
     text-align: center;
-    color: black;
+    color: gold;
 }
 
 #header #content h1 {
