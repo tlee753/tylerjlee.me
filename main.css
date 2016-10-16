@@ -17,14 +17,13 @@ body {
 }
 
 #header #frame {
-    width: 50%
     height: 50%
     position: relative;
     padding: 15px;
-    border: 3px solid white;
+    border: 10px solid white;
 }
 
 #header #content {
     text-align: center;
-    color: white;
+    color: green;
 }
