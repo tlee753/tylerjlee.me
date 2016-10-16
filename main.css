@@ -17,7 +17,7 @@ body {
 }
 
 #header #frame {
-    float: left;
+    display: block;
     clear: both;
     height: 100%;
     width: 100%;
