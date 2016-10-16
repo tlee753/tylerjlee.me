@@ -18,6 +18,7 @@ body {
 }
 
 #header #border {
+    position: relative;
     height: 100%;
     width: 100%;
     padding: 15px;
@@ -26,7 +27,7 @@ body {
 #header #border #frame {
     height: 100%;
     width: 100%;
-    border: 8px solid white;
+    border: 5% solid white;
 }
 
 #header #content {
