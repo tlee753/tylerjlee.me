@@ -7,8 +7,6 @@ body {
 }
 
 #header {
-    text-align: center;
-    color: blue;
     background-image: url("header-min.jpg");    
     background-size: cover;
     background-position: center;
@@ -21,3 +19,7 @@ body {
     height: 100vh;
 }
 
+#header #content {
+    text-align: center;
+    color: white;
+}
