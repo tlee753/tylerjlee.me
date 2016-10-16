@@ -27,7 +27,7 @@ body {
 #header #border #frame {
     height: 100%;
     width: 100%;
-    border: 5% solid white;
+    border: 10px solid white;
 }
 
 #header #content {
