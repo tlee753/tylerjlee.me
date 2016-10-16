@@ -7,6 +7,8 @@ body {
 }
 
 #header {
+    display: block;
+    position: relative;
     background-image: url("header-min.jpg");    
     background-size: cover;
     background-position: center;
