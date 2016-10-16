@@ -8,6 +8,6 @@ body {
 #header {
     text-align: center;
     color: blue;
-    
+    background-image: url("header.jpg");    
 }
 
