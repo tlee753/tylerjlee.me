@@ -39,7 +39,7 @@ body {
 #header #content h1 {
     font-size: 72px;
     color: white;
-    text-shadow: 0 0 100px gold;
+    text-shadow: 0 0 100px goldenrod;
     padding: 0;
     margin: 0 0;
 }
@@ -47,14 +47,14 @@ body {
 #header #content h2 {
     font-size: 24px;
     color: navy;
-    text-shadow: 0 0 100px gold;
+    text-shadow: 0 0 100px goldenrod;
     padding: 0;
     margin: 10px 0;
 }
 
 #header #content h3 {
     color: navy;
-    text-shadow: 0 0 100px gold;
+    text-shadow: 0 0 100px goldenrod;
     padding: 0;
     margin: 10px 0;
 }
