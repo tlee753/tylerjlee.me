@@ -59,13 +59,17 @@ body {
     margin: 10px 0;
 }
 
-#header #content a {
+#header #contenet #links {
+    display: block;
+}
+
+#header #content #links a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-#header #content a div .button {
+#header #content #links a div .button {
     display: inline-block;
     height: 50px;
     width: 200px;
