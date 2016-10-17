@@ -39,7 +39,7 @@ body {
 
 #header #content h1 {
     font-size: 72px;
-    text-shadow: 0 0 20px gold;
+    text-shadow: 0 0 40px gold;
     padding: 0;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -48,7 +48,7 @@ body {
 
 #header #content h2 {
     font-size: 24px;
-    text-shadow: 0 0 20px gold;
+    text-shadow: 0 0 40px gold;
     padding: 0;
     margin: 10px auto;
 }
