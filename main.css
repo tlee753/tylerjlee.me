@@ -60,7 +60,7 @@ body {
 }
 
 #header #contenet #links {
-    display: block;
+    display: inline-block;
 }
 
 #header #content #links a {
