@@ -92,7 +92,7 @@ body {
 @media screen and (max-width: 480px) {
 
     #header #frame {
-        outline: 20px solid goldenrod;
+        outline: 10px solid goldenrod;
     }
 
     #header #content h1 {
