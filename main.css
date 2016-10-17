@@ -89,18 +89,30 @@ body {
 }
 
 
-@media screen and (max-width: 480px) {
-
-    #header #frame {
-        outline: 10px solid goldenrod;
-    }
+@media screen and (max-width: 640px) {
 
     #header #content h1 {
-        font-size: 80px;
+        font-size: 68px;
     }
 
     #header #content h2 {
         font-size: 24px;
+    }
+
+    #header #content h3 {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    #header #content h1 {
+        font-size: 52px;
+    }
+
+    #header #content h2 {
+        font-size: 20px;
     }
 
     #header #content h3 {
