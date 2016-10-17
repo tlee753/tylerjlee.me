@@ -56,3 +56,12 @@ body {
     padding: 0;
     margin: 10px auto;
 }
+
+#header #content .button {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+}
