@@ -25,7 +25,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    outline: 10px solid white;
+    outline: 10px solid goldenrod;
     outline-offset: -30px;
 }
 
