@@ -83,3 +83,7 @@ body {
     border-radius: 25px;
     margin: 0 20px;
 }
+
+#header #content #links a div.button:hover {
+    background-color: goldenrod;
+}
