@@ -37,7 +37,7 @@ body {
 }
 
 #header #content h1 {
-    font-size: 72px;
+    font-size: 90px;
     color: midnightblue;
     text-shadow: 0 0 40px goldenrod;
     padding: 0;
@@ -45,7 +45,7 @@ body {
 }
 
 #header #content h2 {
-    font-size: 24px;
+    font-size: 30px;
     color: midnightblue;
     text-shadow: 0 0 40px goldenrod;
     padding: 0;
@@ -53,6 +53,7 @@ body {
 }
 
 #header #content h3 {
+    font-size: 24px;
     color: midnightblue;
     text-shadow: 0 0 40px goldenrod;
     padding: 0;
