@@ -23,7 +23,7 @@ body {
     height: 100%;
     width: 100%;
     outline: 10px solid white;
-    outline-offset: -40px;
+    outline-offset: -30px;
 }
 
 #header #content {
