@@ -90,7 +90,6 @@ body {
 
 
 @media screen and (max-width: 540px) {
-
     #header #content h1 {
         font-size: 68px;
     }
@@ -98,15 +97,10 @@ body {
     #header #content h2 {
         font-size: 26px;
     }
-
-    #header #content h3 {
-        font-size: 22px;
-    }
 }
 
 
 @media screen and (max-width: 480px) {
-
     #header #content h1 {
         font-size: 68px;
     }
@@ -114,24 +108,15 @@ body {
     #header #content h2 {
         font-size: 22px;
     }
-
-    #header #content h3 {
-        font-size: 18px;
-    }
 }
 
 
 @media screen and (max-width: 360px) {
-
     #header #content h1 {
         font-size: 52px;
     }
 
     #header #content h2 {
-        font-size: 18px;
-    }
-
-    #header #content h3 {
         font-size: 18px;
     }
 }
