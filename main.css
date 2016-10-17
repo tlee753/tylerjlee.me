@@ -36,4 +36,6 @@ body {
 
 #header #content h1 {
     font-size: 72px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px white;
 }
