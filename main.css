@@ -26,7 +26,7 @@ body {
     height: 100%;
     width: 100%;
     outline: 10px solid white;
-    outline-offset: -30px;
+    outline-offset: -10px;
 }
 
 #header #content {
