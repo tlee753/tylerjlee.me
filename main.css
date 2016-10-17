@@ -20,15 +20,15 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
+/*
 #header #frame {
     position: absolute;
     height: 100%;
     width: 100%;
     outline: 10px solid white;
-    outline-offset: -10px;
+    outline-offset: -30px;
 }
-
+*/
 #header #content {
     position: relative;
     top: 50%;
