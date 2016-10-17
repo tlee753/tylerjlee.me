@@ -76,7 +76,7 @@ body {
     width: 200px;
     margin: 0;
     padding: 0;
-    background-color: gold;
+    background-color: goldenrod;
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
@@ -85,5 +85,5 @@ body {
 }
 
 #header #content #links a div.button:hover {
-    background-color: goldenrod;
+    background-color: gold;
 }
