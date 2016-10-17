@@ -61,7 +61,7 @@ body {
     text-decoration: none;
 }
 
-#header #content a div.button {
+#header #content a div .button {
     display: inline-block;
     height: 50px;
     width: 200px;
