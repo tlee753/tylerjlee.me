@@ -23,13 +23,13 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    padding: 15px;
+    padding: 200px;
 }
 
 #header #border #frame {
     height: 100%;
     width: 100%;
-    border: 10px solid white;
+    border: 10px solid green;
 }
 */
 #header #content {
