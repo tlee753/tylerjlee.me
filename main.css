@@ -4,7 +4,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
     font-family: Tahoma, Century Gothic, sans-serif;
+=======
+    font-family: Helvetica, Century Gothic, sans-serif;
+>>>>>>> 6b9b6c957d55f8d84cc10f006403d7b46c1f96eb
     margin: 0;
     padding: 0;
 }
