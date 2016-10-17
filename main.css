@@ -53,7 +53,7 @@ body {
 }
 
 #header #content h3 {
-    color: navy;
+    color: white;
     text-shadow: 0 0 100px gold;
     padding: 0;
     margin: 10px 0;
@@ -69,7 +69,7 @@ body {
     font-size: 20px;
 }
 
-#header #content #links a div .button {
+#header #content #links a div.button {
     display: inline-block;
     height: 50px;
     width: 200px;
