@@ -57,7 +57,7 @@ body {
     margin: 10px auto;
 }
 
-#header #content a.button {
+#header #content a div.button {
     display: inline-block;
     height: 50px;
     width: 200px;
