@@ -100,11 +100,19 @@ body {
     #header #content h1 {
         font-size: 68px;
     }
+    
+    #header #content h2 {
+        display: none;
+    }
 }
 
 
 @media screen and (max-width: 360px) {
     #header #content h1 {
         font-size: 52px;
+    }
+
+    #header #content h2 {
+        display: none;
     }
 }
