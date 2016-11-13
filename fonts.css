@@ -1,9 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 @font-face {
-  font-family: 'Phenomena';
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Phenomena-Regular';
   src: url('Phenomena-Regular.otf') format('opentype');
 }
 
