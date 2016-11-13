@@ -1,8 +1,15 @@
 @font-face {
-font-family: 'Flama-Basic';
-font-style: normal;
-font-weight: normal;
-src: local('Flama-Basic'), url('Flama-Basic.woff') format('woff');
+  font-family: 'Phenomena';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Phenomena-Regular', url('Phenomena-Regular.otf'), format('opentype');
+}
+
+@font-face {
+  font-family: 'Flama-Basic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Flama-Basic'), url('Flama-Basic.woff') format('woff');
 }
 
 
