@@ -1,8 +1,13 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 @font-face {
-  font-family: 'Mooon Light';
+  font-family: 'Moon Light';
   src: url('Moon Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Alcubierre';
+  src: url('Alcubierre.otf') format('opentype');
 }
 
 @font-face {
