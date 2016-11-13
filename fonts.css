@@ -2,7 +2,7 @@
   font-family: 'Phenomena';
   font-style: normal;
   font-weight: normal;
-  src: local('Phenomena-Regular', url('Phenomena-Regular.otf'), format('opentype');
+  src: url('Phenomena-Regular.otf'), format('opentype');
 }
 
 @font-face {
