@@ -1,6 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 @font-face {
+  font-family: 'Avalon';
+  src: url('Avalon.ttf');
+}
+
+@font-face {
   font-family: 'Moon Light';
   src: url('Moon Light.otf') format('opentype');
 }
