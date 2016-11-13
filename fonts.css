@@ -1,6 +1,16 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 @font-face {
+  font-family: 'Mooon Light';
+  src: url('Moon Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Moon Bold';
+  src: url('Moon Bold.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'Cassius-Regular';
   src: url('Cassius-Regular.otf') format('opentype');
 }
