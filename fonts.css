@@ -1,6 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 @font-face {
+  font-family: 'Cassius-Regular';
+  src: url('Cassius-Regular.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'Phenomena-Regular';
   src: url('Phenomena-Regular.otf') format('opentype');
 }
