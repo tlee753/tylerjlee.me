@@ -2,44 +2,44 @@
 
 @font-face {
   font-family: 'Montserrat-Regular';
-  src: url('Montserrat-Regular.otf');
+  src: url('../fonts/Montserrat-Regular.otf');
 }
 
 @font-face {
   font-family: 'Avalon';
-  src: url('Avalon.ttf');
+  src: url('../fonts/Avalon.ttf');
 }
 
 @font-face {
   font-family: 'Moon Light';
-  src: url('Moon Light.otf') format('opentype');
+  src: url('../fonts/Moon Light.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Alcubierre';
-  src: url('Alcubierre.otf') format('opentype');
+  src: url('../fonts/Alcubierre.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Moon Bold';
-  src: url('Moon Bold.otf') format('opentype');
+  src: url('../fonts/Moon Bold.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Cassius-Regular';
-  src: url('Cassius-Regular.otf') format('opentype');
+  src: url('../fonts/Cassius-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Phenomena-Regular';
-  src: url('Phenomena-Regular.otf') format('opentype');
+  src: url('../fonts/Phenomena-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Flama-Basic';
   font-style: normal;
   font-weight: normal;
-  src: local('Flama-Basic'), url('Flama-Basic.woff') format('woff');
+  src: local('Flama-Basic'), url('../fonts/Flama-Basic.woff') format('woff');
 }
 
 

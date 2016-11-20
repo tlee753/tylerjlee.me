@@ -1,45 +1,23 @@
-<html>
-  <head>
-    <title>Tyler Lee</title>
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="fonts.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-  </head>
-  <body>
-    <div id="clear">News bulletin item</div>
-    <div id="header">
-      <div id="frame"></div>
-      <div id="content">
-        <h1>Tyler Lee</h1>
-        <h2>"What a truly wonderful world"</h2>
-        <h3>Leader // Explorer // Engineer</h3>
-        <div id="links">
-          <a href="http://linkedin.com/in/tlee753">
-            <div class="button">LinkedIn</div>
-          </a>
-          <a href="http://www.github.com/tlee753">
-            <div class="button">Github</div>
-          </a>
-          <a href="skype:tlee753?chat">
-            <div class="button">Skype</div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac ullamcorper ipsum, ac volutpat nisl. Curabitur porttitor turpis vel odio dignissim, at fringilla velit volutpat. Nam sodales nunc et tincidunt hendrerit. Sed sed diam sollicitudin turpis ultricies tempor. Pellentesque dignissim consectetur rhoncus. Nam posuere ligula in dignissim lacinia. Phasellus accumsan fringilla facilisis. Duis ultrices tellus sed risus pellentesque scelerisque. Sed egestas mi magna, sed mollis ligula tempus eget.
-<br>
-<br>
-Nam ultricies lectus vel risus mollis, sit amet interdum magna maximus. Aliquam turpis odio, congue vehicula venenatis et, consequat a arcu. Proin at imperdiet dui. Etiam varius dui neque, a aliquet sapien imperdiet interdum. Quisque sed libero tincidunt sem posuere ultricies sed non elit. Cras augue orci, congue sed vulputate nec, molestie in elit. Sed scelerisque, mi a gravida aliquet, tortor velit condimentum magna, malesuada auctor urna arcu euismod nisi. Nulla nec dapibus elit. Aenean laoreet congue purus in auctor. Proin ultrices tincidunt egestas. Suspendisse placerat molestie sodales.
-<br>
-<br>
-Quisque lacinia dolor ut lacus convallis rhoncus. Nulla aliquam sodales eros et viverra. Nullam in nibh sit amet urna gravida porta. Cras dignissim, dui vel fringilla volutpat, nisl urna auctor dolor, eu rutrum felis ex sit amet libero. Quisque finibus enim tempor arcu volutpat mollis. In dapibus augue at mollis condimentum. Vivamus aliquam, diam eu rutrum dignissim, ipsum tellus semper neque, sed rutrum ligula dolor a leo. Ut arcu elit, volutpat vel ultricies id, sagittis sed risus.
-<br>
-<br>
-Nunc id iaculis nisi. Pellentesque auctor vel lectus vitae lobortis. Phasellus sollicitudin nisi dignissim commodo convallis. Curabitur non pharetra ipsum, sit amet dignissim turpis. Fusce mauris dui, consectetur id enim pretium, tincidunt aliquet nunc. Nullam quis quam et orci porttitor pulvinar non ut neque. Sed vehicula maximus consequat. Suspendisse potenti. Maecenas sed erat sed lorem euismod porttitor. Mauris aliquet posuere quam ac pretium.
-<br>
-<br>
-Curabitur eleifend ullamcorper faucibus. Vestibulum at feugiat neque, vitae pretium metus. Suspendisse mollis neque at tristique euismod. Phasellus rutrum elit id tempor ultricies. Aliquam et felis mauris. Suspendisse lorem nunc, vehicula eu tincidunt et, blandit eget nibh. Etiam tempor purus elit, quis molestie augue tristique eu. Aenean ultricies maximus felis quis porta. In commodo mattis scelerisque. Maecenas id interdum velit, id pellentesque quam. Etiam condimentum nulla sit amet lacus pellentesque hendrerit. Sed vel porttitor metus.
-    </p>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
