@@ -3,13 +3,14 @@ console.log("Loaded")
 var $stocks = $("#Stocks"),
     animationend = (Modernizr.prefixed('animation') + "End").replace(/^ms/, "MS").replace(/^Webkit/, "webkit").replace(/^Moz.*/, "animationend");
 
+
 ////////////////////////////////////////
 // Get stock data via YQL query
 var getStocks = function () {
-			
+	console.log("entered");
 	var wsql = "select * from yahoo.finance.quotes where symbol in ('PWR')",
 			stockYQL = 'http://query.yahooapis.com/v1/public/yql?q='+encodeURIComponent(wsql)+'&env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json&callback=?';
-  
+
   return $.ajax({
     url: stockYQL,
     dataType: 'json'

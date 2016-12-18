@@ -1,5 +1,9 @@
 #!/bin/bash
 
-git add *
-git commit -m "modifications"
-git push origin gh-pages
+cd ~/Desktop/Github/tylerjlee.me;
+
+git add . *;
+
+git commit -m "update website";
+
+git push;

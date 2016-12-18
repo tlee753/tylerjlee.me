@@ -1,2 +1,7 @@
-# bash shell
+_site
+.sass-cache
+.jekyll-metadata
+
+.idea
 *.sh
+
