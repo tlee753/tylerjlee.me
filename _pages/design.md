@@ -144,7 +144,7 @@ Home (Who I Am, four projects, contact me
     |-Google Plus
     |-Email
 
-About me coudld be a parallax scroll through of einstein/john wooden quotes and end on things i enjoy. 
+About me could be a parallax scroll through of einstein/john wooden quotes and end on things i enjoy. 
 
 Movie page should have discuss favorite movie as well as star wars/indiana jones then move onto the list
 

@@ -34,8 +34,8 @@ li {
 }
 
 li a {
-	display:block;
-	min-width:140px;
+	display: block;
+	min-width: 140px;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
