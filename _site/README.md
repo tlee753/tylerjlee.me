@@ -1,4 +1,7 @@
 # tylerjlee.me
-secondary personal website
+Secondary Personal Website for Tyler Lee
 
-- utilized for testing purposes
+- website is currently utilized for testing purposes
+- will eventually function as primary website
+
+### Please Visit tlee753.com for the latest 
