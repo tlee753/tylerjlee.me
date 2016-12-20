@@ -17,3 +17,5 @@ email: tlee753@gatech.edu
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-cayman
