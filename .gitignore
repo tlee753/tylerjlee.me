@@ -1,7 +1,8 @@
-_site
-.sass-cache
-.jekyll-metadata
-
+# IntelliJ
 .idea
-*.sh
 
+# Sass Preprocessor
+.sass-cache
+
+# Bash Scripts
+*.sh
