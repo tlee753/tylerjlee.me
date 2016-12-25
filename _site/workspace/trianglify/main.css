@@ -8,11 +8,22 @@ body {
     margin: 0;
 }
 
+div {
+    background: linear-gradient(to top, #c0b283, #efefef);
+}
+
 ul {
+    -webkit-padding-start: 0;
     list-style-type: none;
 }
 
+li {
+    display: inline-block;
+}
+
 .navbar-item {
+    padding: 10px;
+    margin: 0px;
     color: white;
     font-family: 'Century Gothic', sans-serif;
     font-size: 36px;
@@ -20,5 +31,11 @@ ul {
 }
 
 .menu-item {
+    float: right;
+    text-align: right;
+}
 
+a {
+    text-decoration: none;
+    color: white;
 }

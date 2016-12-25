@@ -1,11 +1,11 @@
 # Site settings
 title: Tyler Lee
-description: > # this means to ignore newlines until next item
+tagline: Leader // Explorer // Engineer
+description: >
   I am an avid code junkie, space afficianado, and helluva engineer - brace yourself for my upcoming awesome website
 
 baseurl: ""
 url: "http://tylerjlee.me" # specify protocol as well
-
 
 
 # User Info
@@ -14,6 +14,11 @@ github_username:  tlee753
 email: tlee753@gatech.edu
 
 
-
 # Build settings
 markdown: kramdown
+port: 8000
+
+
+sass:
+  sass_dir: css
+  style: :nested

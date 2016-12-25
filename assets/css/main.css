@@ -66,10 +66,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #c0b283;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #a39153; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -151,6 +151,7 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
+  background-color: #c0b283;
   position: relative; }
 
 .site-title {
@@ -213,7 +214,8 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  padding: 30px 0;
+  background-color: #c0b283; }
 
 .footer-heading {
   font-size: 18px;
