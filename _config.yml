@@ -25,3 +25,4 @@ sass:
   style: :nested
 
 inlcude: ['_pages']
+
