@@ -1,5 +1,6 @@
 # IntelliJ
 .idea
+.iml
 
 # Sass Preprocessor
 .sass-cache
