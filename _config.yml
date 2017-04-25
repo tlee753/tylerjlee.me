@@ -5,7 +5,7 @@ description: >
   I am an avid code junkie, space afficianado, and helluva engineer - brace yourself for my upcoming awesome website
 
 baseurl: ""
-url: "http://tylerjlee.me" # specify protocol as well
+url: "http://tylerjlee.me"
 
 
 # User Info
@@ -19,6 +19,9 @@ markdown: kramdown
 port: 8000
 
 
+# Sass settings
 sass:
   sass_dir: css
   style: :nested
+
+inlcude: ['_pages']
