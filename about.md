@@ -18,6 +18,10 @@ This is the base Jekyll theme. You can find out more info about customizing your
 # test
 
 
-`int main() {
+`
+int main() {
     printf("Test");
- }`
+}
+`
+
+{% include parallax.html %}
